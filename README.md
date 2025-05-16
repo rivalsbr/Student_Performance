@@ -89,7 +89,6 @@ https://studentperformance-ckksz9gnanpqhfyhwva7dc.streamlit.app
 
 ## ***Conclusion***
 
-- Komposisi siswa terdiri dari 66% Laki-laki dan 34% Perempuan.
 - Dari 3.630 siswa yang berhasil lulus (*Graduation Rate*) sebesar 60.9% sedangkan yang tidak lulus (*Dropout Rate*) sebesar 39,1% 
 - tingkat ketidaklulusan siswa laki laki 56,1% dan siswa perempuan 30,2%.
 - Dari 969 penerima beasiswa terdapat 134 siswa yang *dropout* (13,8%) dan 835 siswa yang berhasil lulus (86.2%)
