@@ -39,20 +39,20 @@ with col3:
     
 col4, col5, col6 = st.columns(3)
 with col4:
-    encoder_Displaced = LabelEncoder()
-    encoder_Displaced.fit(['Non Displaced', 'Displaced'])
-    Displaced = st.selectbox(label='Displaced', options=['Non Displaced', 'Displaced'], index=0)
-    data['Displaced'] = [encoder_Displaced.transform([Displaced])[0]]
+    encoder_Gender = LabelEncoder()
+    encoder_Gender.fit(['Female', 'Male'])
+    Gender = st.selectbox(label='Gender', options=['Female', 'Male'], index=1)
+    data['Gender'] = [encoder_Gender.transform([Gender])[0]]
 with col5:
     encoder_Daytime_evening_attendance = LabelEncoder()
     encoder_Daytime_evening_attendance.fit(['Daytime', 'Evening'])
     Daytime_evening_attendance = st.selectbox(label='Attendance', options=['Daytime', 'Evening'], index=0)
     data['Daytime_evening_attendance'] = [encoder_Daytime_evening_attendance.transform([Daytime_evening_attendance])[0]]
 with col6:
-    encoder_Gender = LabelEncoder()
-    encoder_Gender.fit(['Female', 'Male'])
-    Gender = st.selectbox(label='Gender', options=['Female', 'Male'], index=1)
-    data['Gender'] = [encoder_Gender.transform([Gender])[0]]
+    encoder_Displaced = LabelEncoder()
+    encoder_Displaced.fit(['Non Displaced', 'Displaced'])
+    Displaced = st.selectbox(label='Displaced', options=['Non Displaced', 'Displaced'], index=0)
+    data['Displaced'] = [encoder_Displaced.transform([Displaced])[0]]
 
 st.markdown("### 🎯 Academic Scores")
 col7, col8 = st.columns(2)
@@ -107,6 +107,3 @@ if st.button('Click Here to Predict'):
         output = prediction(new_data)
         st.toast("Prediction completed!")
         st.success(f"## 🔮 Prediction Result: {output}")
-        
-
-st.snow()
