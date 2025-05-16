@@ -1,5 +1,3 @@
-#Students_Performance.py
-
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
@@ -13,10 +11,10 @@ from preprocessing import encoder_Daytime_evening_attendance, encoder_Debtor, en
 from preprocessing import scaler_Admission_grade, scaler_Curricular_units_1st_sem_approved, scaler_Curricular_units_1st_sem_credited, scaler_Curricular_units_1st_sem_enrolled, scaler_Curricular_units_1st_sem_grade, scaler_Curricular_units_2nd_sem_approved, scaler_Curricular_units_2nd_sem_credited, scaler_Curricular_units_2nd_sem_enrolled, scaler_Curricular_units_2nd_sem_grade, scaler_Previous_qualification_grade
 
 
-# Initialize an empty dictionary to store user input
+# Initialize user input
 data = {}
 
-# Convert user input dictionary to DataFrame
+# Convert user input to DataFrame
 user_input_df = pd.DataFrame(data, index=[0])
 
 st.markdown("### 🎓 Student Information")
@@ -93,13 +91,14 @@ with col16:
     Curricular_units_2nd_sem_credited = st.number_input(label='2nd Sem Credited', value=0)
     data['Curricular_units_2nd_sem_credited'] = [Curricular_units_2nd_sem_credited]
 
-# Convert user input dictionary to DataFrame
+# Convert user input to DataFrame
 user_input_df = pd.DataFrame(data, index=[0])
 
 # Display user input
 with st.expander("Raw Dataset"):
         st.dataframe(data=user_input_df, width=1200, height=20)
-# Preprocess data and make prediction on button click
+    
+# Preprocess data
 if st.button('Click Here to Predict'):
     new_data = data_preprocessing(data=data)
     with st.spinner("Predicting..."):
