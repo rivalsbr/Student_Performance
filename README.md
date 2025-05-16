@@ -66,6 +66,13 @@ Dashboard ini dibuat untuk membantu tim HR memahami faktor-faktor yang mempengar
 https://lookerstudio.google.com/u/0/reporting/9eb5a74b-e590-47c9-93d8-dac228982b06
 ```
 
+## ***Menjalankan Sistem Machine Learning***
+Prototype Sistem Machine Learning ini dibuat dengan Streamlit yang dapat diakses pada link berikut ini:
+
+```
+https://studentperformance-ckksz9gnanpqhfyhwva7dc.streamlit.app
+```
+
 ## ***Conclusion***
 
 - Komposisi siswa terdiri dari 66% Laki-laki dan 34% Perempuan dengan distribusi usia tertinggi pada rentang 17-23 tahun.
