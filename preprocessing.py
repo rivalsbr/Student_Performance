@@ -1,8 +1,7 @@
-#data_preprocessing.py
-
-import joblib
-import numpy as np
 import pandas as pd
+import numpy as np
+import joblib
+
 
 encoder_Gender = joblib.load("model/encoder_Gender.joblib")
 encoder_Debtor = joblib.load("model/encoder_Debtor.joblib")
