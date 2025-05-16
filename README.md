@@ -89,12 +89,13 @@ https://studentperformance-ckksz9gnanpqhfyhwva7dc.streamlit.app
 
 ## ***Conclusion***
 
-- Komposisi siswa terdiri dari 66% Laki-laki dan 34% Perempuan dengan distribusi usia tertinggi pada rentang 17-23 tahun.
-- Tingkat kelulusan siswa (*Graduation Rate*) sebesar 60.85%% sedangkan tingkat ketidaklulusan (*Dropout Rate*) sebesar 39,14% dari 3.630 siswa
-- Tingkat ketidaklulusan cukup seimbang antara siswa Laki-laki (19.83%) dan siswa Perempuan (19.31%)
-- Dari 969 penerima beasiswa terdapat 134 siswa yang *dropout* (13.83%) dan 835 siswa yang berhasil lulus (86.17%)
-- Dari 1.421 siswa yang *dropout* terdapat 1.214 siswa (85.43%) yang mengikuti kelas pagi dan 207 siswa (14.57%) yang mengikuti kelas malam
-- Selain itu, faktor *curricular units* dan *tuition fees* juga cukup berpengaruh pada tingkat kelulusan siswa.
+- Komposisi siswa terdiri dari 66% Laki-laki dan 34% Perempuan.
+- Dari 3.630 siswa yang berhasil lulus (*Graduation Rate*) sebesar 60.9% sedangkan yang tidak lulus (*Dropout Rate*) sebesar 39,1% 
+- tingkat ketidaklulusan siswa laki laki 56,1% dan siswa perempuan 30,2%.
+- Dari 969 penerima beasiswa terdapat 134 siswa yang *dropout* (13,8%) dan 835 siswa yang berhasil lulus (86.2%)
+- Dari 1993 siswa yg mengungsi, 1.324 siswa lulus (66,4%) dan 669 siswa *dropout* (33,6%)
+- Dari 1.421 siswa yang *dropout* terdapat 1.214 siswa (85.4%) yang mengikuti kelas pagi dan 207 siswa (14.57%) yang mengikuti kelas malam
+- faktor *curricular units* dan *tuition fees* juga cukup berpengaruh pada tingkat kelulusan siswa.
 
 
 ### **Rekomendasi *Action Items***
