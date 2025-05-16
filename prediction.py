@@ -19,7 +19,7 @@ data = {}
 # Convert user input dictionary to DataFrame
 user_input_df = pd.DataFrame(data, index=[0])
 
-st.markdown("### 📋 Student Information")
+st.markdown("### 🎓 Student Information")
 col1, col2, col3 = st.columns(3)
 with col1:
     encoder_Tuition_fees_up_to_date = LabelEncoder()
@@ -54,7 +54,7 @@ with col6:
     Gender = st.selectbox(label='Gender', options=['Female', 'Male'], index=1)
     data['Gender'] = [encoder_Gender.transform([Gender])[0]]
 
-st.markdown("### 📊 Academic Scores")
+st.markdown("### 🎯 Academic Scores")
 col7, col8 = st.columns(2)
 with col7:
     Admission_grade = st.slider(label='Admission Grade', min_value=0, max_value=200, value=100)
@@ -63,7 +63,7 @@ with col8:
     Previous_qualification_grade = st.slider(label='Previous Qualification Grade', min_value=0, max_value=200, value=100)
     data['Previous_qualification_grade'] = [Previous_qualification_grade]
 
-st.markdown("#### 📚 Curricular Units 1st Semester")
+st.markdown("#### 📕 Curricular Units 1st Semester")
 col9, col10, col11, col12 = st.columns(4)
 with col9:
     Curricular_units_1st_sem_approved = st.number_input(label='1st Sem Approved', value=5)
@@ -78,7 +78,7 @@ with col12:
     Curricular_units_1st_sem_credited = st.number_input(label='1st Sem Credited', value=0)
     data['Curricular_units_1st_sem_credited'] = [Curricular_units_1st_sem_credited]
 
-st.markdown("#### 📚 Curricular Units 2nd Semester")
+st.markdown("#### 📘 Curricular Units 2nd Semester")
 col13, col14, col15, col16 = st.columns(4)
 with col13:
     Curricular_units_2nd_sem_approved = st.number_input(label='2nd Sem Approved', value=5)
@@ -106,7 +106,7 @@ if st.button('Click Here to Predict'):
         time.sleep(2)  # Simulating prediction process
         output = prediction(new_data)
         st.toast("Prediction completed!")
-        st.success(f"## 🎯 Prediction Result: {output}")
+        st.success(f"## 🔮 Prediction Result: {output}")
         
 
 st.snow()
