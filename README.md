@@ -31,23 +31,29 @@ https://drive.google.com/file/d/1_qoM_pf4oG83codHrgxSfiVbeuWek1Hc/view?usp=drive
 Agar proyek ini terisolasi dengan dependensinya, buat virtual environment.
 
 Membuat virtual environment:
+```
 bash
 Salin
 Edit
 python -m venv venv
+```
 
 Mengaktifkan virtual environment:
 Di Windows:
+```
 bash
 Salin
 Edit
 .\venv\Scripts\activate
+```
 
 Di macOS/Linux:
+```
 bash
 Salin
 Edit
 source venv/bin/activate
+```
 
 *Setup environment - Shell/Terminal*:
 ```
@@ -57,6 +63,14 @@ pipenv install
 pipenv shell
 pip install -r requirements.txt
 ```
+
+*Setup environment - Anaconda*:
+```
+conda create --name stud-perfom python=3.11.12
+conda activate stud-perfom
+pip install -r requirements.txt
+```
+
 
 ## ***Business Dashboard***
 
