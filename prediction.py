@@ -4,7 +4,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 from PIL import Image
 import time
-from preprocessing import preprocessing
+from preprocessing import data_preprocessing
 
 from testing import prediction
 from preprocessing import encoder_Daytime_evening_attendance, encoder_Debtor, encoder_Displaced, encoder_Gender, encoder_Scholarship_holder, encoder_Tuition_fees_up_to_date
