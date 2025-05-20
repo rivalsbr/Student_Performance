@@ -93,6 +93,9 @@ with col16:
 
 # Convert user input to DataFrame
 user_input_df = pd.DataFrame(data, index=[0])
+# Display user input
+with st.expander("Raw Dataset"):
+        st.dataframe(data=user_input_df, width=1200, height=20)
 
 # Preprocess data
 if st.button('Click Here to Predict'):
